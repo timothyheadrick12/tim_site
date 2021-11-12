@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
-import ReactTerminal, {ReactThemes} from 'react-terminal-component'
+import Terminal from '../Terminal/Terminal'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <ReactTerminal theme={ReactThemes.dye} promptSymbol=">" />
+        <Terminal />
       </div>
     )
   }
