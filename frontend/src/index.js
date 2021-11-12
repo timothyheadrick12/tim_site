@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './components/App/App'
 import reportWebVitals from './reportWebVitals'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routes>
+      <Route exact path="/" element={<App />} />
+      <Route exact path="/next/" element={<div>tree</div>} />
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 )
 
