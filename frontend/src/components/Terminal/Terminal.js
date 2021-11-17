@@ -57,16 +57,6 @@ export default class Terminal extends Component {
     this.randStr = makeRandStr(1000);
 
     this.numWriters = 5;
-    this.writers = [...Array(this.numWriters)].map((elem, index) => (
-      <div key={"writer-" + index}>
-        <ConditionalWriter
-          className="t-overlay"
-          style={{ top: (index * (100 / this.numWriters)).toString() + "%" }}
-          condition={this.state.boot}
-          randStr={this.randStr}
-        />
-      </div>
-    ));
   }
   //END OF CONSTRUCTOR
 
@@ -96,7 +86,20 @@ export default class Terminal extends Component {
             emulatorState={this.emulatorState}
           />
         </div>
-        {this.writers}
+        {[...Array(this.numWriters)].map((elem, index) => (
+          <div
+            key={"writer-" + index}
+            style={{
+              top: (index * Math.round(100 / this.numWriters)).toString() + "%",
+            }}
+          >
+            <ConditionalWriter
+              className="t-overlay"
+              condition={boot}
+              randStr={this.randStr}
+            />
+          </div>
+        ))}
       </div>
     );
     // }

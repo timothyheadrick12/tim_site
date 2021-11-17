@@ -18,6 +18,10 @@
   color: #a3ffb0;
 }
 
+.t-top0 {
+  top: 0%;
+}
+
 /* Could be helpful for making text go 
 onto next line of terminal
  .terminalOutput {
