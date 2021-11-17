@@ -58,13 +58,12 @@ export default class Terminal extends Component {
 
     this.numWriters = 5;
     this.writers = [...Array(this.numWriters)].map((elem, index) => (
-      <div>
+      <div key={"writer-" + index}>
         <ConditionalWriter
           className="t-overlay"
           style={{ top: (index * (100 / this.numWriters)).toString() + "%" }}
           condition={this.state.boot}
           randStr={this.randStr}
-          id={"writer" + index}
         />
       </div>
     ));
