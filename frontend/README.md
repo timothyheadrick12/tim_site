@@ -4,7 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Documentation for Components
 
-<https://github.com/rohanchandra/react-terminal-component>
+- <https://github.com/rohanchandra/react-terminal-component>
+- <https://codepen.io/denic/pen/GRoOxbM>
 
 ## Available Scripts
 

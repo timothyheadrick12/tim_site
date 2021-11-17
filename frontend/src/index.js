@@ -5,6 +5,7 @@ import App from './components/App/App'
 import reportWebVitals from './reportWebVitals'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
+//controls the routing to different pages
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
