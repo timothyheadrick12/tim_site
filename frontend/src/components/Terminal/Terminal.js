@@ -103,6 +103,7 @@ export default class Terminal extends Component {
             <ConditionalWriter condition={boot} str={this.randStr} />
           </div>
         ))}
+        {/* This is the waterfall of text that appears at the end */}
         <div className={'t-overlay' + (boot ? ' t-overlay-textfall' : '')}>
           {this.randStr.repeat(10)}
         </div>
