@@ -9,8 +9,9 @@
 .t-overlay {
   width: 100%;
   position: absolute;
+  top: 0%;
   left: 0;
-  z-index: 1;
+  z-index: -1; /* start at -1 to not interfere with clicking*/
   overflow-wrap: break-word;
   padding: 1%;
   font-family: monospace;
@@ -18,8 +19,21 @@
   color: #a3ffb0;
 }
 
-.t-top0 {
-  top: 0%;
+.t-overlay-fade {
+  z-index: 1;
+  animation-name: to-grey;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes to-grey {
+  from {
+    color: #a3ffb0;
+  }
+  to {
+    color: #121212;
+  }
 }
 
 /* Could be helpful for making text go 
