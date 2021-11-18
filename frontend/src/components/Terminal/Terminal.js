@@ -67,7 +67,7 @@ export default class Terminal extends Component {
     if (boot) {
       setTimeout(() => {
         this.setState({redirect: true})
-      }, 7000)
+      }, 6000)
     }
     if (redirect) {
       return <Navigate to="home" />
