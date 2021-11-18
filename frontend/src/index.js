@@ -27,7 +27,7 @@ ReactDOM.render(
                 position: 'absolute',
                 textAlign: 'center',
                 width: '70%',
-                left: '10%',
+                left: '13%',
                 padding: '2%',
               }}
               alt="motherboard"
