@@ -56,7 +56,7 @@ export default class Terminal extends Component {
 
     this.randStr = makeRandStr(1000)
 
-    this.numWriters = 25
+    this.numWriters = 10
   }
   //END OF CONSTRUCTOR
 
@@ -67,10 +67,10 @@ export default class Terminal extends Component {
     if (boot) {
       setTimeout(() => {
         this.setState({redirect: true})
-      }, 6000)
+      }, 7000)
     }
     if (redirect) {
-      return <Navigate to="next" />
+      return <Navigate to="home" />
     }
     return (
       <div>
@@ -103,6 +103,9 @@ export default class Terminal extends Component {
             <ConditionalWriter condition={boot} str={this.randStr} />
           </div>
         ))}
+        <div className={'t-overlay' + (boot ? ' t-overlay-textfall' : '')}>
+          {this.randStr.repeat(10)}
+        </div>
       </div>
     )
     // }

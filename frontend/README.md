@@ -2,10 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Planned Layout
+
+- A CPU page that includes skills
+- A memory page
+  - Includes past projects (github)
+  - Any involvment
+  - Jobs
+- IO page with external links
+- Maybe a documentation page for motherboard for about me.
+
 ## Documentation for Components
 
 - <https://github.com/rohanchandra/react-terminal-component>
-- <https://codepen.io/denic/pen/GRoOxbM>
+- <https://www.npmjs.com/package/typewriter-effect/v/2.18.2>
 
 ## Available Scripts
 

@@ -8,11 +8,14 @@
 
 .t-overlay {
   width: 100%;
+  height: 0;
   position: absolute;
-  top: 0%;
+  opacity: 0;
+  top: 0;
   left: 0;
   z-index: -1; /* start at -1 to not interfere with clicking*/
   overflow-wrap: break-word;
+  overflow: hidden;
   padding: 1%;
   font-family: monospace;
   font-size: 1.1rem;
@@ -21,6 +24,8 @@
 
 .t-overlay-fade {
   z-index: 1;
+  opacity: 1;
+  height: 100%;
   animation-name: to-grey;
   animation-duration: 3s;
   animation-delay: 3s;
@@ -29,13 +34,38 @@
 
 @keyframes to-grey {
   from {
-    color: #a3ffb0;
+    opacity: 1;
   }
   to {
-    color: #121212;
+    opacity: 0;
   }
 }
 
+.t-overlay-textfall {
+  animation-name: text-fall;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes text-fall {
+  0% {
+    height: 0%;
+    z-index: 1;
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    height: 100%;
+  }
+  100% {
+    opacity: 0;
+    height: 100%;
+    z-index: 1;
+  }
+}
 /* Could be helpful for making text go 
 onto next line of terminal
  .terminalOutput {
