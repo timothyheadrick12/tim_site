@@ -2,40 +2,16 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import Terminal from './components/Terminal/Terminal'
+import App from './components/App/App'
 import reportWebVitals from './reportWebVitals'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import motherboard from './assets/images/motherboard.svg'
 
 //controls the routing to different pages
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route exact path="/" element={<Terminal />} />
-      <Route
-        exact
-        path="/home/"
-        element={
-          <div
-            style={{
-              height: '100%',
-              width: '100%',
-              overflow: 'hidden',
-            }}
-          >
-            <img
-              style={{
-                position: 'absolute',
-                textAlign: 'center',
-                width: '70%',
-                left: '13%',
-                padding: '2%',
-              }}
-              alt="motherboard"
-              src={motherboard}
-            />
-          </div>
-        }
-      />
+      <Route exact path="/home/" element={<App />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

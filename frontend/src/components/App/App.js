@@ -1,11 +1,12 @@
 import React, {Component} from 'react'
-import Terminal from '../Terminal/Terminal'
+import './App.css'
+import {ReactComponent as Motherboard} from '../../assets/images/motherboard.svg'
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Terminal />
+      <div className="motherboardContainerStyle">
+        <Motherboard className="motherboardImageStyle" />
       </div>
     )
   }

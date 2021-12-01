@@ -1,1 +1,18 @@
+.motherboardContainerStyle {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
 
+.motherboardImageStyle {
+  position: absolute;
+  text-align: center;
+  width: 70%;
+  left: 13%;
+  padding: 2%;
+}
+
+#path1775:hover {
+  fill: red;
+  stroke: red;
+}

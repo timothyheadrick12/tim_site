@@ -1,51 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    id="svg10143"
-   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
    viewBox="0 0 921.80246 662.99997"
    version="1.1"
-   sodipodi:docname="ASRock-P55DE3-motherboard.svg"
    width="921.80005"
-   height="663"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <defs
-     id="defs305" />
-  <sodipodi:namedview
-     id="base"
-     bordercolor="#666666"
-     inkscape:pageshadow="2"
-     inkscape:window-y="27"
-     pagecolor="#ffffff"
-     inkscape:zoom="0.49497475"
-     inkscape:window-width="1680"
-     inkscape:window-maximized="1"
-     inkscape:window-x="1050"
-     showgrid="false"
-     borderopacity="1.0"
-     inkscape:current-layer="layer1"
-     inkscape:cx="538.4113"
-     inkscape:cy="556.59405"
-     inkscape:window-height="986"
-     inkscape:pageopacity="0.0"
-     inkscape:document-units="mm"
-     inkscape:pagecheckerboard="0"
-     height="1071.8001px" />
+   height="663">
   <g
      id="layer1"
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      transform="translate(-46.361,-51.543)">
     <g
        id="layer1-2"
-       inkscape:label="Layer 1"
+       label="Layer 1"
        transform="matrix(0,3.3683,-3.3683,0,1104.9674,-1080.5027)">
       <g
          id="g1973"
@@ -112,13 +76,13 @@
             <path
                id="path1739"
                style="fill:none;stroke:#000000;stroke-width:1.0605px"
-               inkscape:connector-curvature="0"
+               connector-curvature="0"
                d="m 439.26,106.51 v -4.6114 h -1.8335" />
             <path
                id="path1741"
                d="m 437.43,106.51 v -4.6114 h 1.8335"
                style="fill:none;stroke:#000000;stroke-width:1.0605px"
-               inkscape:connector-curvature="0" />
+               connector-curvature="0" />
           </g>
           <g
              id="g1749"
@@ -127,11 +91,11 @@
                id="path1745"
                d="m 439.26,106.51 v -4.6114 h -1.8335"
                style="fill:none;stroke:#000000;stroke-width:1.0605px"
-               inkscape:connector-curvature="0" />
+               connector-curvature="0" />
             <path
                id="path1747"
                style="fill:none;stroke:#000000;stroke-width:1.0605px"
-               inkscape:connector-curvature="0"
+               connector-curvature="0"
                d="m 437.43,106.51 v -4.6114 h 1.8335" />
           </g>
         </g>
@@ -153,11 +117,11 @@
                id="path1755"
                d="m 439.26,106.51 v -4.6114 h -1.8335"
                style="fill:none;stroke:#000000;stroke-width:1.0605px"
-               inkscape:connector-curvature="0" />
+               connector-curvature="0" />
             <path
                id="path1757"
                style="fill:none;stroke:#000000;stroke-width:1.0605px"
-               inkscape:connector-curvature="0"
+               connector-curvature="0"
                d="m 437.43,106.51 v -4.6114 h 1.8335" />
           </g>
           <g
@@ -166,13 +130,13 @@
             <path
                id="path1761"
                style="fill:none;stroke:#000000;stroke-width:1.0605px"
-               inkscape:connector-curvature="0"
+               connector-curvature="0"
                d="m 439.26,106.51 v -4.6114 h -1.8335" />
             <path
                id="path1763"
                d="m 437.43,106.51 v -4.6114 h 1.8335"
                style="fill:none;stroke:#000000;stroke-width:1.0605px"
-               inkscape:connector-curvature="0" />
+               connector-curvature="0" />
           </g>
         </g>
         <rect
@@ -204,9 +168,9 @@
         <path
            id="path1775"
            d="m 370.53,160.17 h 4.5 l 9.5,8.875 13.219,0.0937 8.625,-8.9688 h 5.0625 l 0.1875,-42.938 -5.3125,-0.0625 -5.0938,-3.0938 h -20.469 l -5.0938,3.0312 h -5.125 z m 5.2188,-5.0312 0.0108,-24.017 -3.0411,-2.2939 -0.0108,-5.0158 3.0411,-2.7042 h 31.188 l 1.8651,2.6465 0.01,5.4405 -1.6964,1.8114 -0.17857,24.133 z"
-           sodipodi:nodetypes="ccccccccccccccccccccccccc"
+           nodetypes="ccccccccccccccccccccccccc"
            style="fill:#6e6f69"
-           inkscape:connector-curvature="0" />
+           connector-curvature="0" />
         <rect
            id="rect1777"
            style="fill:#5d7dd4"
@@ -275,7 +239,7 @@
            id="path1793"
            d="m 339.82,221.78 h 79.469 v -1.25 h 12.312 v -5.7188 h -12.312 v -1.4375 h -79.47 v 8.4062 z"
            style="fill:#3e5b9d"
-           inkscape:connector-curvature="0" />
+           connector-curvature="0" />
         <rect
            id="rect1795"
            style="fill:#3f3f33"
@@ -295,7 +259,7 @@
         <path
            id="path1799"
            style="fill:#a84420"
-           inkscape:connector-curvature="0"
+           connector-curvature="0"
            d="m 339.82,276.08 h 79.469 v -1.25 h 12.312 v -5.7188 h -12.312 v -1.4375 h -79.47 v 8.4062 z" />
         <rect
            id="rect1801"
@@ -429,7 +393,7 @@
            id="path1833"
            d="m 458.83,310.74 h 0.9568 v -1.25 h 7.7162 v -1.0938 h -8.3952 v 0.0625 h -0.27778 v 2.2812 z"
            style="fill:#e05e84"
-           inkscape:connector-curvature="0" />
+           connector-curvature="0" />
         <rect
            id="rect1835"
            style="fill:#e05e84"
@@ -449,7 +413,7 @@
         <path
            id="path1839"
            style="fill:#e05e84"
-           inkscape:connector-curvature="0"
+           connector-curvature="0"
            d="m 474.87,310.74 h 0.9568 v -1.25 h 7.7162 v -1.0938 h -8.3952 v 0.0625 h -0.27778 v 2.2812 z" />
         <rect
            id="rect1841"
@@ -471,7 +435,7 @@
            id="path1845"
            d="m 474.87,320.14 h 0.9568 v -1.25 h 7.7162 v -1.0938 h -8.3952 v 0.0625 h -0.27778 v 2.2812 z"
            style="fill:#e05e84"
-           inkscape:connector-curvature="0" />
+           connector-curvature="0" />
         <rect
            id="rect1847"
            style="fill:#e05e84"
@@ -491,7 +455,7 @@
         <path
            id="path1851"
            style="fill:#e05e84"
-           inkscape:connector-curvature="0"
+           connector-curvature="0"
            d="m 458.9,320.14 h 0.9568 v -1.25 h 7.7162 v -1.0938 h -8.3952 v 0.0625 h -0.27778 v 2.2812 z" />
         <path
            id="path1853"
@@ -884,31 +848,4 @@
       </g>
     </g>
   </g>
-  <metadata
-     id="metadata132">
-    <rdf:RDF>
-      <cc:Work>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <cc:license
-           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
-        <dc:publisher>
-          <cc:Agent
-             rdf:about="http://openclipart.org/">
-            <dc:title>Openclipart</dc:title>
-          </cc:Agent>
-        </dc:publisher>
-      </cc:Work>
-      <cc:License
-         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Reproduction" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Distribution" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
-      </cc:License>
-    </rdf:RDF>
-  </metadata>
 </svg>
