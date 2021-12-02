@@ -1,10 +1,10 @@
-.motherboardContainerStyle {
+.motherboard-container-style {
   height: 100%;
   width: 100%;
   overflow: hidden;
 }
 
-.motherboardImageStyle {
+.motherboard-image-style {
   position: absolute;
   text-align: center;
   width: 70%;
@@ -12,7 +12,38 @@
   padding: 2%;
 }
 
-#path1775:hover {
-  fill: red;
-  stroke: red;
+.cpu-abs-style {
+  position: absolute;
+  text-align: center;
+  width: 70%;
+  left: 13%;
+  padding: 2%;
+  z-index: 1;
+}
+
+#g3333 {
+  transform-origin: 32.5% 17.5%;
+  transition: all 0.15s;
+}
+
+#g3333:hover {
+  transform: scale(1.1);
+}
+
+#g3110 {
+  transform-origin: 42.5% 22.5%;
+  transition: all 0.15s;
+}
+
+.cpu-abs-style:hover ~ #mb0 #g3110 {
+  transform: scale(1.1);
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }

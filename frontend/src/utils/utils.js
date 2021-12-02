@@ -1,3 +1,6 @@
+import {Navigate} from 'react-router'
+import {ReactDOM} from 'react'
+
 export function makeRandStr(l) {
   var text = ''
   var char_list =
@@ -6,4 +9,11 @@ export function makeRandStr(l) {
     text += char_list.charAt(Math.floor(Math.random() * char_list.length))
   }
   return text
+}
+
+export function nav() {
+  ReactDOM.render(
+    <Navigate to="home/skills" />,
+    document.getElementById('root')
+  )
 }

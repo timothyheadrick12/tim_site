@@ -12,6 +12,7 @@ ReactDOM.render(
     <Routes>
       <Route exact path="/" element={<Terminal />} />
       <Route exact path="/home/" element={<App />} />
+      <Route exact path="/home/skills/" element={<div />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
