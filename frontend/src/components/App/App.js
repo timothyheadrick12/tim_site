@@ -26,10 +26,12 @@ class App extends Component {
     }
     return (
       <div className="motherboard-container-style">
-        <svg
-          className="cpu-abs-style"
+        {/* <svg
+          id="svgcopybox0"
           viewBox="0 0 921.80246 662.99997"
+          className="cpu-abs-style"
           width="921.80005"
+          stroke="white"
           height="663"
         >
           <rect
@@ -42,7 +44,7 @@ class App extends Component {
             x="-390"
             onClick={() => this.setState({navigate: true})}
           />
-        </svg>
+        </svg> */}
         <Motherboard id="mb0" className="motherboard-image-style" />
       </div>
     )

@@ -5,11 +5,9 @@
 }
 
 .motherboard-image-style {
-  position: absolute;
-  text-align: center;
-  width: 70%;
-  left: 13%;
-  padding: 2%;
+  width: 92%;
+  height: 100%;
+  padding: 4%;
 }
 
 .cpu-abs-style {
@@ -21,29 +19,28 @@
   z-index: 1;
 }
 
-#g3333 {
+.io-link-styles {
   transform-origin: 32.5% 17.5%;
   transition: all 0.15s;
 }
 
-#g3333:hover {
+.io-link-styles:hover {
   transform: scale(1.1);
 }
 
-#g3110 {
+.cpu-link-styles {
   transform-origin: 42.5% 22.5%;
   transition: all 0.15s;
 }
 
-.cpu-abs-style:hover ~ #mb0 #g3110 {
+.cpu-link-styles:hover {
   transform: scale(1.1);
 }
 
-@keyframes grow {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.1);
-  }
+.ram-link-styles {
+  transition: all 0.15s;
+}
+
+.ram-link-styles:hover {
+  stroke: black;
 }
