@@ -171,7 +171,8 @@
            </g>
         <g
            id="g3110"
-           className = "cpu-link-styles">
+           className = "cpu-link-styles"
+           opacity = "0">
            <rect
                id="rect3331"
                style="fill:#1f211f"
