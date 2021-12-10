@@ -9,25 +9,24 @@
   padding: 4%;
 }
 
-.cpu-abs-style {
+/*BG motherboard styles*/
+
+.mb-abs-style {
   position: absolute;
   width: 92%;
   padding: 4%;
   z-index: 1;
 }
 
-.io-link-styles {
-  transform-origin: 32.5% 17.5%;
-  transition: all 0.15s;
-}
-
-.io-link-styles:hover {
-  transform: scale(1.1);
-}
+/*CPU styles*/
 
 .cpu-link-styles {
   transform-origin: 42.5% 22.5%;
   transition: all 0.15s;
+}
+
+.cpu-link-styles:hover {
+  transform: scale(3.6) translateX(-0.5%) translateY(-0.5%);
 }
 
 #g3310 {
@@ -38,14 +37,49 @@
   fill: #6e6f69;
 }
 
-.cpu-link-styles:hover {
-  transform: scale(3.6) translateX(-0.5%) translateY(-0.5%);
+/*IO styles*/
+
+.io-link-styles {
+  transform-origin: 32.5% 17.5%;
+  transition: all 0.15s;
 }
+
+.io-link-styles:hover {
+  transform: rotate(90deg) scale(3.5) translateX(-3.25%) translateY(-18%);
+}
+
+.rect-set-1-styles {
+  fill: #918d8a;
+}
+
+.rect-set-2-styles {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 1.0605px;
+}
+
+.rect-set-3-styles {
+  fill: #110f12;
+}
+
+/*Ram styles */
 
 .ram-link-styles {
   transition: all 0.15s;
 }
 
 .ram-link-styles:hover {
-  stroke: black;
+  transform: scale(3.3) rotate(90deg) translateX(-31.5%) translateY(-50.5%);
+}
+
+.ram-blue-styles {
+  fill: #5d7dd4;
+}
+
+.ram-white-styles {
+  fill: #fcfcfe;
+}
+
+.ram-grey-styles {
+  fill: #222224;
 }

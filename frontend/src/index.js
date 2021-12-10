@@ -12,7 +12,21 @@ ReactDOM.render(
     <Routes>
       <Route exact path="/" element={<Terminal />} />
       <Route exact path="/home/" element={<App />} />
-      <Route exact path="/home/skills/" element={<div />} />
+      <Route
+        exact
+        path="/home/skills/"
+        element={<div style={{color: 'white'}}>Welcome to skills!</div>}
+      />
+      <Route
+        exact
+        path="/home/external-links/"
+        element={<div style={{color: 'white'}}>Welcome to external links!</div>}
+      />
+      <Route
+        exact
+        path="/home/past/"
+        element={<div style={{color: 'white'}}>Welcome to past projects!</div>}
+      />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
