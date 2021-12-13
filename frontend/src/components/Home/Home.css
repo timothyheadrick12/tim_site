@@ -1,12 +1,10 @@
 .motherboard-container-style {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
+  position: relative;
+  margin: auto;
+  width: 75%;
 }
 
 .motherboard-image-style {
-  width: 92%;
   padding: 4%;
 }
 
@@ -14,7 +12,6 @@
 
 .mb-abs-style {
   position: absolute;
-  width: 92%;
   padding: 4%;
   z-index: 1;
 }
@@ -40,9 +37,13 @@
 
 /*IO styles*/
 
+/*this does not work on firefox, so it might be necessary to
+eventuall implement browser detection and conditionally
+render with a different style sheet that uses steps(0)
+transition function rather than linear.*/
 .io-link-styles {
   transform-origin: 32.5% 17.5%;
-  transition: all 0.15s;
+  transition: all 0.15s linear;
 }
 
 .io-link-styles:hover {

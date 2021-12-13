@@ -1,0 +1,8 @@
+.external-parent-div {
+  position: relative;
+}
+
+.external-banner-div {
+  width: 20%;
+  float: right;
+}
