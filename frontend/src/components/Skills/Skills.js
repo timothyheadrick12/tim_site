@@ -23,43 +23,41 @@ class Skills extends Component {
           <Home />
         </div>
         <div className="skills-content-parent">
-          <div className="skills-education-div">
-            education
-            <div
-              className="wire"
-              style={{transform: 'rotate(0deg) translate(21.5rem, 3rem)'}}
-            />
-            <div
-              className="wire"
-              style={{transform: 'rotate(0deg) translate(21.5rem, 5.5rem)'}}
-            />
-            <div
-              className="wire"
-              style={{transform: 'rotate(0deg) translate(21.5rem, 8rem)'}}
-            />
-            <div
-              className="wire"
-              style={{
-                transform: 'rotate(0deg) translate(21.5rem, 10.5rem)',
-                animationName: 'wire-signal-rtl',
-              }}
-            />
-            <div
-              className="wire"
-              style={{
-                transform: 'rotate(0deg) translate(21.5rem, 13rem)',
-                animationName: 'wire-signal-rtl',
-              }}
-            />
-            <div
-              className="wire"
-              style={{
-                transform: 'rotate(0deg) translate(21.5rem, 15.5rem)',
-                animationName: 'wire-signal-rtl',
-              }}
-            />
-            <div className="skills-skills-div">skills</div>
-          </div>
+          <div className="skills-education-div">education</div>
+          <div
+            className="wire"
+            style={{transform: 'rotate(0deg) translate(33.3rem, 15rem)'}}
+          />
+          <div
+            className="wire"
+            style={{transform: 'rotate(0deg) translate(33.3rem, 17.5rem)'}}
+          />
+          <div
+            className="wire"
+            style={{transform: 'rotate(0deg) translate(33.3rem, 20rem)'}}
+          />
+          <div
+            className="wire"
+            style={{
+              transform: 'rotate(0deg) translate(33.3rem, 22.5rem)',
+              animationName: 'wire-signal-rtl',
+            }}
+          />
+          <div
+            className="wire"
+            style={{
+              transform: 'rotate(0deg) translate(33.3rem, 25rem)',
+              animationName: 'wire-signal-rtl',
+            }}
+          />
+          <div
+            className="wire"
+            style={{
+              transform: 'rotate(0deg) translate(33.3rem, 27.5rem)',
+              animationName: 'wire-signal-rtl',
+            }}
+          />
+          <div className="skills-skills-div">skills</div>
         </div>
       </div>
     )

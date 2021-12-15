@@ -9,7 +9,7 @@
   filter: brightness(75%);
   background-size: 100% 100%;
   height: 100vh;
-  width: 100%;
+  width: 110rem;
 }
 
 .skills-banner-div {
@@ -57,17 +57,20 @@
   }
 }
 
-.skills-education-div {
+.skills-content-parent {
   position: relative;
+}
+
+.skills-education-div {
+  position: absolute;
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
   width: 20rem;
   height: 20rem;
-  float: left;
-  margin: 10%;
   padding: 1rem;
   border: 0.5rem gray solid;
   border-radius: 2rem;
+  transform: translate(10.4rem, 10.35rem);
 }
 
 .skills-skills-div {
@@ -79,5 +82,5 @@
   padding: 1rem;
   border: 0.5rem gray solid;
   border-radius: 2rem;
-  transform: translate(31rem, -2.5rem);
+  transform: translate(43.2rem, 10.35rem);
 }
