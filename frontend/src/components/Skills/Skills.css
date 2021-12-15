@@ -2,7 +2,82 @@
   position: relative;
 }
 
+.skills-background-img {
+  position: absolute;
+  z-index: -1;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/96/Si_wafer.jpg');
+  filter: brightness(75%);
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100%;
+}
+
 .skills-banner-div {
   width: 20%;
   float: right;
+}
+
+.wire {
+  background: repeating-linear-gradient(
+    90deg,
+    gray,
+    gray 0%,
+    yellow 0%,
+    yellow 5%,
+    gray 5%,
+    gray 100%
+  );
+  background-size: 200% 100%;
+  background-position: 10% 0%;
+  background-repeat: repeat-x;
+  animation-name: wire-signal-ltr;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  height: 0.5rem;
+  width: 10rem;
+  position: absolute;
+}
+
+@keyframes wire-signal-ltr {
+  from {
+    background-position: 10% 0%;
+  }
+  to {
+    background-position: -100% 0%;
+  }
+}
+
+@keyframes wire-signal-rtl {
+  from {
+    background-position: -100% 0%;
+  }
+  to {
+    background-position: 10% 0%;
+  }
+}
+
+.skills-education-div {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  width: 20rem;
+  height: 20rem;
+  float: left;
+  margin: 10%;
+  padding: 1rem;
+  border: 0.5rem gray solid;
+  border-radius: 2rem;
+}
+
+.skills-skills-div {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  width: 20rem;
+  height: 20rem;
+  padding: 1rem;
+  border: 0.5rem gray solid;
+  border-radius: 2rem;
+  transform: translate(31rem, -2.5rem);
 }

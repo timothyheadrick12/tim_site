@@ -17,6 +17,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - <https://github.com/rohanchandra/react-terminal-component>
 - <https://www.npmjs.com/package/typewriter-effect/v/2.18.2>
 
+## Image Credits
+
+- <https://commons.wikimedia.org/wiki/File:Si_wafer.jpg>
+
 ## Available Scripts
 
 In the project directory, you can run:
